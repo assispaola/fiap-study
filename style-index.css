@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: Source Sans Pro;
+}
+
+body {
+  color: white;
+  font-family: Source Sans Pro;
+  background-color: #ffffff;
+  float: right;
+  background: url(../app-heatlhtrack/img/f2.png) no-repeat;
+  background-position: left;
+  right: 800;
+  color: #fff;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  font-size: 16px;
+  font-family: Source Sans Pro;
+  color: rgb(34, 34, 34);
+  position: relative;
+  left: 600px;
+}
+
+.corpo {
+  max-width: 100%;
+  float: left;
+  margin-top: 1.2em;
+  font-size: 18px;
+  font-family: Source Sans Pro;
+  font-style: light;
+  color: rgb(34, 34, 34);
+  position: relative;
+  top: 240px;
+  left: 180px;
+}
+
+.button {
+  background-color: #901da9;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 12px;
+  height: 46px;
+  line-height: 46px;
+  width: 170px;
+  text-decoration: none;
+  text-align: center;
+  max-width: 200px;
+  position: relative;
+  top: 550px;
+  right: 55px;
+}
+
+.button:hover {
+  background-color: #381152;
+  color: #fff;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.button2 {
+  background-color: #381152;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 12px;
+  height: 46px;
+  line-height: 46px;
+  width: 170px;
+  text-decoration: none;
+  text-align: center;
+  max-width: 200px;
+  position: relative;
+  top: 610px;
+  right: 228px;
+}
+
+.button2:hover {
+  background-color: #901da9;
+  color: #fff;
+}
+.button2:active {
+  position: relative;
+  top: 1px;
+}
