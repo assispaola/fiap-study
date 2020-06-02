@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style-index.css" />
-   
-    <title>Health Track</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Track</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="/styles/index.css">
+
+</head>
   <body>
-    <header class="logo">
-      <a href="index.html">
-        <img src="img/logo-verde.png" alt="Health Track">
-      </a>
-    </header>
-  </class>
-
-      <div class="corpo">
-        <p>Seja Bem-Vindo(a), sua saúde começa aqui!</p>
-      </div>
-        <a href="#" class="button">CRIAR DIETA</a>
-        <a href="#" class="button2">JÁ TENHO CADASTRO</a>
-        </class>
+   <div id="page-home">
+    <div class="content">
+      <header>
+        <img src="/assets/logo-verde.png" alt="Logomarca" />
+     
+       
+             <a href="#"><button>LOGIN</button></a>
         
-      </button>
+       
+       
+      </header>
 
+      <main>
+        <h2>Faça seu cadastro:</h2>
 
-   
-     </div>
+        <form>
+          <input type="text" name="nome" placeholder="Nome">
+          <input type="email" name="email" placeholder="E-mail">
+          <input type="tel" name="telefone" placeholder="Celular">
+          <input type="number" name="peso" placeholder="Peso (Kg)">
+          <input type="number" name="altura" placeholder="Altura">
+          <input type="date" name="data" placeholder="Data de Nascimento">
+          <select name="sexo" id="sexo" aria-placeholder="Sexo">
+              <option value="fem">Feminino</option>
+              <option value="tpa">Masculino</option>
+            
+              <input type="submit" value="INSCREVA-SE" />
+            
+          
+         </form>
+        </main>
+    
+      </div>
+    </div>  
   </body>
 </html>

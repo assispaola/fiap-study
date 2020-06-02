@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: #99edd1;
+  -webkit-font-smothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: #263238;
+  padding: 10px;
+}
+
+h2 {
+  font-weight: semi-bold;
+  display: flex;
+}
+
+img {
+  max-width: 250px;
+}
+
+#page-home {
+  height: 100vh;
+  background: url(/assets/bg-index.png) no-repeat;
+  background-position: 0 bottom;
+}
+
+#page-home .content {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-home header {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-home header a {
+  display: flex;
+  color: #263238;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  margin-top: 20px;
+  position: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 560px;
+  justify-content: center;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+
+.menu li a:hover {
+  color: #fff;
+  transition: 400ms;
+}
+
+.content button {
+  background-color: #fafafa;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+  color: #6cd2ba;
+  border: none;
+  font-weight: 700;
+  width: 100%;
+  transition: 400ms;
+}
+
+.content button a:hover {
+  background-color: #067506;
+  transition: 400ms;
+}
+
+#page-home main {
+  max-width: 1300px;
+  margin: 90px 970px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  font-size: 14px;
+  color: #fff;
+}
