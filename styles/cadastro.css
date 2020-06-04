@@ -33,7 +33,7 @@ a:hover {
 
 p {
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 45px;
   font-size: 14px;
   color: #929292;
 }
@@ -46,7 +46,7 @@ img {
 
 .main-form {
   width: 300px;
-  margin-top: 200px;
+  margin-top: 50px;
   float: right;
 }
 
@@ -62,7 +62,7 @@ img {
   width: 300px;
   border-radius: 8px;
   font-weight: 400;
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: #45caad;
   color: #fafafa;
   border: none;

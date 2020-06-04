@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Health Track</title>
 
     <link
@@ -16,7 +16,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/cadastro.css" />
     <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
   </head>
 
@@ -29,6 +29,18 @@
       <img src="/assets/logo-verde.png" alt="Logomarca" />
       <div class="row">
         <div class="col">
+
+          <div class="form-group">
+            <label for="nome"></label>
+            <input
+              type="text"
+              name="name"
+              id="email"
+              class="form-control is-validate"
+              placeholder="Nome"
+            />
+          
+        </div>
           <div class="form-group">
             <label for="email"></label>
             <input
@@ -53,11 +65,51 @@
           class="form-control"
           required
         />
+      </div>
+      <div class="form-group">
+        <label for="peso"></label>
+        <input
+          type="number"
+          name="peso"
+          id="peso"
+          placeholder="Peso Atual"
+          class="form-control"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="altura"></label>
+        <input
+          type="number"
+          name="altura"
+          id="altura"
+          placeholder="Altura"
+          class="form-control"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="date"></label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+          placeholder="Data de Nascimento"
+          class="form-control"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="gender"></label>
+        <select name="gender" id="gender" aria-placeholder="Sexo" class="form-control">
+          <option value="male">Feminino</option>
+          <option value="female">Masculino</option>
+        </select>
       
     
-      <button type="submit" class="btn btn-primary">ENTRAR</button>
+      <button type="submit" class="btn btn-primary">CADASTRAR</button>
 
-      <p>Não tem uma conta? <a href="/cadastro.html">CADASTRE-SE</a></p>
+      <p>Já possui uma conta? <a href="/index.html">LOGIN</a></p>
     </form>
 
     <script
