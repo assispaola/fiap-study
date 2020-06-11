@@ -1,0 +1,43 @@
+.container--logo {
+    margin-top: 45px;
+}
+
+.box--logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box--logo h1 {
+    font-size: 18px;
+    color: #48a632;
+    font-weight: bold;
+}
+
+.link--remind-password {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    position: relative;
+    color: #377827;
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+}
+
+.box--create-account span {
+    padding: 30px 0 15px 0;
+    color: #48a632;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-entrar {
+    margin-top: 20px;
+}

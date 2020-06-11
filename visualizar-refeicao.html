@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Health Track - Visualizar Refeição</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/ubuntu.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/visualizar-refeicao.css">
+    <!--[if IE]><link rel="shortcut icon" href="img/ico-32x32.ico"><![endif]-->
+    <link rel="icon" href="/assets/favicon.ico">
+</head>
+
+<body>
+    <article class="container-fluid wrapper">
+        <header class="row container--top-bar">
+            <div class="col-md-3 box--logo-and-btn-menu">
+                <div class="box--logo-logged-area">
+
+                    <strong>HEALTH TRACK</strong>
+
+                    <img src="assets/submark-verde.png" alt="Logo Health Track">
+                </div>
+
+                <div id="button-menu-mob">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-9 box--top-bar">
+                <div class="col-md-4 box--photo-user">
+                    <a href="perfil.html" title="Perfil">
+                        <img src="assets/vector.png" width="55px" height="55px" alt="Foto do usuário">
+                        <strong>Paola Assis</strong>
+                    </a>
+                </div>
+                <div class="col-md-offset-6 col-md-2 box--action-logout">
+                    <a href="index.html" title="Logout">
+                        <i class="glyphicon glyphicon-log-out" style="font-size:18px;color:#45CAAD"></i>
+                        <span>&nbsp;&nbsp;Sair</span>
+                    </a>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="row container--body-page">
+            <nav class="col-md-3 box--menu">
+                <ul class="ul--menu">
+                    <li class="item-menu">
+                        <a href="dashboard.html" title="Home">
+                            <i class="glyphicon glyphicon-th
+                        " style="font-size:18px;color:#121F2F"></i>
+                            <font color="#121F2F">&nbsp;&nbsp;Dashboard
+                                </span></font>
+                        </a>
+                    </li>
+
+                    <!-- Sua Conta -->
+                    <li class="drop-item-menu">
+                        <i class="glyphicon glyphicon-user
+                        " style="font-size:18px;color:#45CAAD"></i>
+                        <span>&nbsp;&nbsp;Perfil</span>
+                    </li>
+                    <ul class="sub-menu">
+                        <li class="item-sub-menu">
+                            <a href="perfil.html" title="Perfil">
+                                <i class="glyphicon glyphicon-user
+                        " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Perfil</span>
+                            </a>
+                        </li>
+                        <li class="item-sub-menu">
+                            <a href="alterar-dados.html" title="Alterar dados">
+                                <i class="glyphicon glyphicon-pencil
+                        " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Alterar Dados</span>
+                            </a>
+                        </li>
+                        <li class="item-sub-menu">
+                            <a href="alterar-senha.html" title="Alterar senha">
+                                <i class="glyphicon glyphicon-lock
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Alterar Senha</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Alimentação -->
+                    <li class="drop-item-menu">
+                        <i class="glyphicon glyphicon-apple
+                                " style="font-size:20px;color:#45CAAD"></i>
+                        <span>&nbsp;&nbsp;Alimentação</span>
+                    </li>
+                    <ul class="sub-menu">
+                        <li class="item-sub-menu">
+                            <a href="lista-refeicoes.html" title="Lista de refeições">
+                                <i class="glyphicon glyphicon-list
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Lista de Refeições</span>
+                            </a>
+                        </li>
+                        <li class="item-sub-menu">
+                            <a href="adicionar-refeicao.html" title="Adicionar refeição">
+                                <i class="glyphicon glyphicon-plus
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Adicionar Refeição</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Exercícios -->
+                    <li class="drop-item-menu">
+                        <i class="glyphicon glyphicon-fire
+                                " style="font-size:18px;color:#45CAAD"></i>
+                        <span>&nbsp;&nbsp;Exercícios</span>
+                    </li>
+                    <ul class="sub-menu">
+                        <li class="item-sub-menu">
+                            <a href="lista-exercicios.html" title="Lista de Exercícios">
+                                <i class="glyphicon glyphicon-list
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Lista de Exercícios</span>
+                            </a>
+                        </li>
+                        <li class="item-sub-menu">
+                            <a href="adicionar-exercicio.html" title="Adicionar Exercício">
+                                <i class="glyphicon glyphicon-plus
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Adicionar Exercício</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Pressão Arterial -->
+                    <li class="drop-item-menu">
+                        <i class="glyphicon glyphicon-tint
+                        " style="font-size:18px;color:#45CAAD"></i>
+                        <span>&nbsp;&nbsp;Hidratação</span>
+                    </li>
+                    <ul class="sub-menu">
+                        <li class="item-sub-menu">
+                            <a href="lista-medicoes-pressao.html" title="Lista de medições">
+                                <i class="glyphicon glyphicon-list
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Lista de Hidratação</span>
+                            </a>
+                        </li>
+                        <li class="item-sub-menu">
+                            <a href="adicionar-pressao.html" title="Adicionar medição">
+                                <i class="glyphicon glyphicon-plus
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Adicionar Copo</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Peso e altura -->
+                    <li class="drop-item-menu">
+                        <i class="glyphicon glyphicon-scale
+                        " style="font-size:18px;color:#45CAAD"></i>
+                        <span>&nbsp;&nbsp;Peso</span>
+                    </li>
+                    <ul class="sub-menu">
+                        <li class="item-sub-menu">
+                            <a href="lista-pesagens.html" title="Lista de pesagens">
+                                <i class="glyphicon glyphicon-list
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Lista de Pesagem</span>
+                            </a>
+                        </li>
+                        <li class="item-sub-menu">
+                            <a href="adicionar-pesagem.html" title="Adicionar pesagem">
+                                <i class="glyphicon glyphicon-plus
+                                " style="font-size:15px;color:#45CAAD"></i>
+                                <span>&nbsp;&nbsp;Adicionar Peso</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <li class="item-menu drop-item-menu">
+                        <a href="index.html" title="Logout">
+                            <i class="glyphicon glyphicon-log-out" style="font-size:18px;color:#c8c8c8"></i>
+                            <span>
+                                <font color="#c8c8c8">&nbsp;&nbsp;Sair
+                            </span></font>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Conteúdo exclusivo de cada página -->
+            <div class="col-md-9 box--page-content">
+                <div class="row container--title-page">
+                    <div class="col-md-12 box--title-page">
+                        <h1>Café da Manhã (01/06/2020)</h1>
+                    </div>
+                </div>
+                <div class="row container--meal-list">
+                    <div class="col-md-12 box--meal-list">
+                        <table class="table table-striped table--list">
+                            <thead>
+                                <tr>
+                                    <th scope="col">DATA</th>
+                                    <th scope="col">PESO (kg)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Pão</td>
+                                    <td>130 kcal</td>
+                                </tr>
+                                <tr>
+                                    <td>Ovos mexidos</td>
+                                    <td>120 kcal</td>
+                                </tr>
+                                <tr>
+                                    <td>Suco de laranja</td>
+                                    <td>70 kcal</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row box-button-add-meal">
+                    <a href="editar-refeicao.html" title="Editar Refeição">
+                        <button type="button" class="btn btn-success">EDITAR REFEIÇÃO</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </article>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/global-logged-area.js"></script>
+</body>
+
+</html>

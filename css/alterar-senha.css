@@ -1,0 +1,25 @@
+.container--update-password {
+    margin-top: 16px;
+    background-color: #fff;
+    box-shadow: 0px 2px 7px -5px rgba(0, 0, 0, .6);
+    font-size: 16px;
+    font-weight: 100;
+    min-height: 400px;
+    padding-bottom: 24px;
+}
+
+.box--label-instruction {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.box--input-nova-senha {
+    margin-top: 20px;
+}
+
+.btn--update-password {
+    margin-top: 10px;
+    width: 100%;
+}

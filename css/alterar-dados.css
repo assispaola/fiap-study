@@ -1,0 +1,78 @@
+.container--title-page {
+    display: none;
+}
+
+.container--update-profile {
+    margin-top: calc(16px + 64px);
+    background-color: #fff;
+    box-shadow: 0px 2px 7px -5px rgba(0, 0, 0, .6);
+    font-size: 16px;
+    font-weight: 100;
+    min-height: 400px;
+    padding-bottom: 24px;
+}
+
+.box--user-photo {
+    width: 132px;
+    height: 110px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px -5px rgba(0, 0, 0, .6);
+    border: 1px solid #f1f1f1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    background-image: url(/assets/vector.png);
+    margin: 0 auto;
+    margin-top: -64px;
+    position: relative;
+}
+
+.box--user-informations-header {
+    padding-top: 20px;
+}
+
+.container--update-profile strong {
+    color: #45CAAD;
+}
+
+.box--user-informations-line {
+    margin-top: 16px;
+    padding-top: 6px;
+    border-top: 1px solid #c3c3c3;
+}
+
+.box-button-update-data {
+    margin-top: 30px;
+}
+
+.btn-update-profile {
+    width: 100%;
+}
+
+#user-photo {
+    display: none;
+}
+
+.btn-update-photo {
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #45CAAD;
+    border-color: #45CAAD;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-update-photo:hover {
+    background-color: #121F2F;
+    border-color: #121F2F;
+}
+
+.btn-update-photo img {
+    width: 26px;
+}

@@ -1,0 +1,29 @@
+.container--height-list {
+    margin-top: 16px;
+    background-color: #fff;
+    box-shadow: 0px 2px 7px -5px rgba(0, 0, 0, .6);
+    font-size: 16px;
+    font-weight: 100;
+    min-height: 300px;
+}
+
+.box--height-list {
+    padding: 0;
+    max-height: 290px;
+    overflow: auto;
+}
+
+.box-button-add-height {
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.box-button-add-height a, .box-button-add-height a button {
+    width: 100%;
+}
+
+@media (min-width: 992px){
+    .box-button-add-height {
+        margin: 26px -15px 0 -15px;
+    }
+}

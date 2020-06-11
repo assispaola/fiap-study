@@ -1,0 +1,129 @@
+.container--title-page {
+    display: none;
+}
+
+.container--dashboard-data {
+    margin-top: calc(16px + 64px);
+    background-color: #45CAAD;
+    box-shadow: 0px 2px 7px -5px rgba(0, 0, 0, .6);
+    font-size: 16px;
+    font-weight: 500;
+    min-height: 400px;
+    color: rgb(17, 85, 70);
+}
+
+.box--user-photo {
+    width: 132px;
+    height: 110px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px -5px rgba(0, 0, 0, .6);
+    border: 1px solid #f1f1f1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    background-image: url(/assets/vector.png);
+    margin: 0 auto;
+    margin-top: -64px;
+}
+
+.box--user-informations-header {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    color: rgb(17, 85, 70);
+}
+
+.container--dashboard-data strong {
+    color: #fafafa;
+}
+
+.box--user-informations-line {
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(191, 242, 229, 0.527);
+}
+
+.card-deck {
+    display: flex;
+    padding: 50px;
+    margin-left: 28 px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card {
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1.5px rgba(191, 242, 229, 0.527) solid;
+    width: 220px;
+    height: 180px;
+    align-items: center;
+    margin-left: 20px;
+    position: relative;
+    background-color: rgb(54, 165, 141);
+    text-align: center;
+    font-weight: bold;
+}
+
+.card a {
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.card img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.card:hover img {
+    opacity: 0;
+}
+
+.card:hover {
+    background-color: #121F2F;
+    border: 3px rgb(39, 143, 120) solid;
+    color: #121F2F;
+    transition: 400ms;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.card .title {
+    text-align: center;
+    margin: 0 auto;
+    color: #45CAAD;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    justify-items: center;
+}
+
+.card:hover .title {
+    transition: all 0.3s ease;
+    opacity: 1;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .card-deck {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: .5rem;
+    }
+}
